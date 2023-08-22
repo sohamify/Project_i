@@ -1,0 +1,149 @@
+.navbar-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #D25380;
+    width: 1500px;
+    height: 64px;
+  }
+  .plans-pricicng,
+  .wellness-hub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+  }
+  .plans-pricicng {
+    position: absolute;
+    top: 12px;
+    right: 720px;
+    width: 174px;
+  }
+  .wellness-hub {
+    right: 417px;
+    width: 118px;
+  }
+  .login,
+  .our-counselors,
+  .wellness-hub {
+    position: absolute;
+    top: 12px;
+  }
+  .login {
+    right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 118px;
+    height: 40px;
+  }
+  .our-counselors {
+    right: 575px;
+  }
+  .how-it-works,
+  .our-counselors,
+  .project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 118px;
+    height: 40px;
+  }
+  .how-it-works {
+    position: absolute;
+    top: 12px;
+    right: 921px;
+  }
+  .project {
+    top: calc(50% - 20px);
+    left: calc(50% - 673px);
+    font-size: var(--font-size-5xl);
+  }
+  .navbar,
+  .project,
+  .signup {
+    position: absolute;
+  }
+  .signup {
+    top: 12px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 118px;
+    height: 40px;
+  }
+  .navbar {
+    top: 0;
+    left: 0;
+    width: 1500px;
+    height: 64px;
+    color: #FFFAF4;
+  }
+  .question-1 {
+    position: relative;
+    background-color: #FFFAF4;
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--color-floralwhite-100);
+    font-family: 'Inter', sans-serif;;
+  }
+  
+  .question{
+  position: relative;
+  top: 150px;
+  left: 300px;
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  height: 124px;
+  justify-content: center;
+  color: #E08E6D;
+  font-size: 32px;
+  
+  }
+  .ans{
+    position: relative;
+    top: 180px;
+    left: 300px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background: #E08E6D;
+    font-size: 20px;
+    color: #FFFAF4;
+    cursor: pointer;
+    
+    }
+    
+    .prev-next-buttons {
+      display: flex;
+      
+      margin-top: 20px; /* Adjust the margin as needed */
+    }
+    
+    
+    .prev, .next {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      background-color: #007bff; /* Adjust the background color */
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none; /* Remove underlines from links */
+    }
+    
+    .prev:hover, .next:hover {
+      background-color: #0056b3; /* Adjust the hover color */
+    }
+  
+ 
